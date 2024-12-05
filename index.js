@@ -9,6 +9,7 @@ let cur="";
     input.setAttribute("value",ans)
   }
   function cleared(){
+    cur='';
     input.setAttribute("value","")
   }
   function operator(str){
