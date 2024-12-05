@@ -23,4 +23,5 @@ let cur="";
   function Evaluate(){
     let cal_ans = eval(cur);
     input.setAttribute("value",cal_ans)
+    cur=cal_ans;
   }
